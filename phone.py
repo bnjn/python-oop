@@ -1,6 +1,7 @@
 from item import Item
 
 class Phone(Item):
+  pay_rate = 0.5
   def __init__(self, name: str, price: float, quantity: int=0, broken_phones: int=0):
     # Call to super function to access all attb/methods
     super().__init__(
